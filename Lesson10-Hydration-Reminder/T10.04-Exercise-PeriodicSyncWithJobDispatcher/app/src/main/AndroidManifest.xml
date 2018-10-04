@@ -28,7 +28,7 @@
             android:name=".sync.WaterReminderFirebaseJobService"
             android:exported="false">
             <intent-filter>
-                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+                <action android:name="android.intent.action.ACTION_EXECUTE" />
             </intent-filter>
         </service>
     </application>
